@@ -1,0 +1,52 @@
+
+:root
+{
+    --white:#f4f2fc;
+    --white-dark:#bcaffb;
+    --primary-light:#937ef7;
+    --primary:#6552bd;
+    --primary-dark:#4a3988;
+    --dark:#150540;
+    --secondary:#12bbb2;
+    --secondary-light:#82f3e9;
+}
+
+@font-face 
+{
+    font-family:'D4_base';
+    src:url('Wattauchimma.ttf') format('truetype');
+}
+
+body
+{
+    -ms-user-select:none; 
+    -moz-user-select:none; 
+    -webkit-user-select:none; 
+    user-select:none; 
+    padding:0px;
+    margin:0px;
+    background:var(--bodywhite);   
+    font-family:D4_base, sans-serif;
+}
+
+.container
+{
+    width:100%;
+    height:fit-content;
+}
+
+.box
+{
+    width:100%;
+    height:100vh;
+}
+
+.bg-dark
+{
+    background-color:var(--dark);
+}
+
+.bg-white
+{
+    background-color:var(--white);
+}
